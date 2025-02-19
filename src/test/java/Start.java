@@ -4,13 +4,7 @@ import java.util.Arrays;
 import net.minecraft.client.main.Main;
 
 /**
- * Welcome to MCP 1.8.9 for Maven
- * This repository has been created to make working with MCP 1.8.9 easier and cleaner.
- * You can view the MCP 1.8.9 repo here: https://github.com/Marcelektro/MCP-919
- * If you have any questions regarding this, feel free to contact me here: https://marcloud.net/discord
- *
- * Have fun with the MC development ^^
- * Marcelektro
+ * Benio Client.
  */
 
 public class Start {
