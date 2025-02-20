@@ -1,3 +1,7 @@
 # Project exclude paths
 /target/
 /.idea/
+
+# Project exclude Logs and Mca file paths
+*.log
+*.mca
