@@ -184,6 +184,8 @@ import org.lwjgl.opengl.GLContext;
 import org.lwjgl.opengl.OpenGLException;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.glu.GLU;
+import store.scriptbenio.Benio;
+import store.scriptbenio.event.impl.input.EventKey;
 
 public class Minecraft implements IThreadListener, IPlayerUsage
 {
@@ -588,6 +590,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             this.gameSettings.saveOptions();
         }
 
+        // STARTS MODIFIED CLIENT
+        Benio.INSTANCE.init();
+        // STARTS MODIFIED CLIENT
+
         this.renderGlobal.makeEntityOutlineShader();
     }
 
@@ -616,6 +622,8 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     private void createDisplay() throws LWJGLException
     {
         Display.setResizable(true);
+
+        // Muda o titulo da aba do Minecraft enquanto ainda está carregando?
         Display.setTitle("Minecraft 1.8.9");
 
         try
@@ -1030,6 +1038,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         {
             this.stream.shutdownStream();
             logger.info("Stopping!");
+
+            // BENIOCLIENT HOOK
+            Benio.INSTANCE.shutdown();
+            // BENIOCLIENT HOOK
 
             try
             {
@@ -1918,6 +1930,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                     }
                     else
                     {
+                        // BENIOCLIENT HOOK
+                        Benio.BUS.post(new EventKey(k));
+                        // BENIOCLIENT HOOK
+
                         if (k == 1)
                         {
                             this.displayInGameMenu();

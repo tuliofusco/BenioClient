@@ -51,6 +51,8 @@ import net.minecraft.util.MovementInput;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
+import store.scriptbenio.Benio;
+import store.scriptbenio.event.impl.update.EventUpdate;
 
 public class EntityPlayerSP extends AbstractClientPlayer
 {
@@ -169,6 +171,11 @@ public class EntityPlayerSP extends AbstractClientPlayer
     {
         if (this.worldObj.isBlockLoaded(new BlockPos(this.posX, 0.0D, this.posZ)))
         {
+
+            // BENIOCLIENT HOOK
+            Benio.BUS.post(new EventUpdate());
+            // BENIOCLIENT HOOK
+
             super.onUpdate();
 
             if (this.isRiding())
