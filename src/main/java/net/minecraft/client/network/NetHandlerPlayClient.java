@@ -211,6 +211,7 @@ import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.storage.MapData;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import store.scriptbenio.Benio;
 import store.scriptbenio.event.EventFlow;
 import store.scriptbenio.event.impl.packet.EventPacket;
 
@@ -818,6 +819,8 @@ public class NetHandlerPlayClient implements INetHandlerPlayClient
     {
         final EventPacket event = new EventPacket(packet);
         event.setEventFlow(EventFlow.OUTBOUND);
+
+        Benio.BUS.post(event);
 
         if (event.isCancelled()) return;
 

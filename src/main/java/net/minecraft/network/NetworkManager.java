@@ -48,6 +48,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
+import store.scriptbenio.Benio;
 import store.scriptbenio.event.EventFlow;
 import store.scriptbenio.event.impl.packet.EventPacket;
 
@@ -156,6 +157,8 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
             {
                 final EventPacket event = new EventPacket(packet);
                 event.setEventFlow(EventFlow.INBOUND);
+
+                Benio.BUS.post(event);
 
                 if (event.isCancelled()) return;
 
