@@ -6,6 +6,6 @@ import store.scriptbenio.event.Event;
 
 @Getter
 @AllArgsConstructor
-public class EventKey extends Event {
+public final class EventKey extends Event {
     private final int key;
 }

@@ -1,4 +1,5 @@
-package store.scriptbenio.module.impl.motion;
+package store.scriptbenio.module.impl.visual;
+
 
 import me.zero.alpine.listener.Listener;
 import me.zero.alpine.listener.Subscribe;
@@ -9,34 +10,34 @@ import store.scriptbenio.module.Module;
 import store.scriptbenio.module.ModuleInfo;
 
 @ModuleInfo(
-        name = "Sprint",
-        description = "Non legit Sprint",
-        category = Category.Motion
+        name = "FullBright",
+        description = "You are the Sun.",
+        category = Category.Visual
 )
-public final class Sprint extends Module {
+public final class FullBright extends Module {
 
-    public Sprint () {
-        // SPRINT KEY BIND
-        setKey(Keyboard.KEY_B);
+    private float oldGamma;
+
+    public FullBright () {
+        setKey(Keyboard.KEY_M);
     }
 
     @Override
     public void onEnable() {
         super.onEnable();
+
+        oldGamma = mc.gameSettings.gammaSetting;
     }
 
     @Override
     public void onDisable() {
         super.onDisable();
+
+        mc.gameSettings.gammaSetting = oldGamma;
     }
 
     @Subscribe
     private final Listener<EventUpdate> onUpdate = new Listener<>(e -> {
-        if (mc.thePlayer.isCollidedHorizontally) return;
-        if (mc.thePlayer.moveForward <= 0) return;
-        if (mc.thePlayer.isUsingItem()) return;
-        if (mc.thePlayer.isSneaking()) return;
-
-        mc.thePlayer.setSprinting(true);
+        mc.gameSettings.gammaSetting = 3;
     });
 }
