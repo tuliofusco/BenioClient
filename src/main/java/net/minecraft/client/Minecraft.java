@@ -624,7 +624,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         Display.setResizable(true);
 
         // Muda o titulo da aba do Minecraft enquanto ainda está carregando?
-        Display.setTitle("Minecraft 1.8.9");
+        Display.setTitle("Loading BenioClient...");
 
         try
         {

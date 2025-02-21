@@ -593,6 +593,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         int k1 = Integer.MIN_VALUE;
         CustomPanoramaProperties custompanoramaproperties = CustomPanorama.getCustomPanoramaProperties();
 
+        /*
         if (custompanoramaproperties != null)
         {
             l = custompanoramaproperties.getOverlay1Top();
@@ -600,7 +601,9 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
             j1 = custompanoramaproperties.getOverlay2Top();
             k1 = custompanoramaproperties.getOverlay2Bottom();
         }
+         */
 
+        /*
         if (l != 0 || i1 != 0)
         {
             this.drawGradientRect(0, 0, this.width, this.height, l, i1);
@@ -610,6 +613,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         {
             this.drawGradientRect(0, 0, this.width, this.height, j1, k1);
         }
+        */
 
         this.mc.getTextureManager().bindTexture(minecraftTitleTextures);
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
@@ -636,7 +640,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = "Minecraft 1.8.9";
+        String s = "BenioClient alpha v1.0.0";
 
         if (this.mc.isDemo())
         {
@@ -668,7 +672,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
             this.drawString(this.fontRendererObj, s, 2, this.height - 10, -1);
         }
 
-        String s2 = "Copyright Mojang AB. Do not distribute!";
+        String s2 = "Copyright Benio inc. Do not distribute!";
         this.drawString(this.fontRendererObj, s2, this.width - this.fontRendererObj.getStringWidth(s2) - 2, this.height - 10, -1);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
