@@ -1,7 +1,12 @@
 # Project exclude paths
 /target/
 /.idea/
+/test_run/
 
 # Project exclude Logs and Mca file paths
 *.log
 *.mca
+*.log.gz
+*.dat
+*.dat_old
+*.lock
