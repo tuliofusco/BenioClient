@@ -17,7 +17,7 @@ renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:mc-hypixel.net
-lang:en_US
+lang:pt_BR
 chatVisibility:0
 chatColors:true
 chatLinks:true

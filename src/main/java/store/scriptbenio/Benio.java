@@ -26,14 +26,14 @@ public enum Benio implements Subscriber {
 
     private String
             name = "BenioClient",
-            version = "alpha001",
+            version = "alpha v1.0.0",
             commandPrefix = "#",
             clientPrefix = "[BENIO] ",
             authors = "Gabriel Scatena & Tulio Fusco";
 
     public final void init () {
         BUS.subscribe(this);
-        Display.setTitle(name + " -> " + version);
+        Display.setTitle(name);
 
         mm = new ModuleManager();
     }
