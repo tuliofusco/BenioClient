@@ -52,6 +52,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
 import store.scriptbenio.Benio;
+import store.scriptbenio.command.CommandManager;
 import store.scriptbenio.event.impl.update.EventUpdate;
 
 public class EntityPlayerSP extends AbstractClientPlayer
@@ -304,6 +305,10 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void sendChatMessage(String message)
     {
+        if (message.startsWith(CommandManager.COMMAND_PREFIX) && Benio.INSTANCE.getCm().handleCommand(message))
+            return;
+
+
         this.sendQueue.addToSendQueue(new C01PacketChatMessage(message));
     }
 

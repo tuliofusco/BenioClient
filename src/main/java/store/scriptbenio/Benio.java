@@ -8,6 +8,7 @@ import me.zero.alpine.listener.Subscribe;
 import me.zero.alpine.listener.Subscriber;
 import net.minecraft.client.Minecraft;
 import org.lwjgl.opengl.Display;
+import store.scriptbenio.command.CommandManager;
 import store.scriptbenio.event.impl.input.EventKey;
 import store.scriptbenio.module.ModuleManager;
 
@@ -16,8 +17,6 @@ public enum Benio implements Subscriber {
     INSTANCE;
 
     private final Minecraft mc = Minecraft.getMinecraft();
-
-    private ModuleManager mm;
 
     public static final EventBus BUS = EventManager.builder()
             .setName("root/Benio")
@@ -31,11 +30,15 @@ public enum Benio implements Subscriber {
             clientPrefix = "[BENIO] ",
             authors = "Gabriel Scatena & Tulio Fusco";
 
+    private ModuleManager mm;
+    private CommandManager cm;
+
     public final void init () {
         BUS.subscribe(this);
         Display.setTitle(name);
 
         mm = new ModuleManager();
+        cm = new CommandManager();
     }
 
     public final void shutdown () {
