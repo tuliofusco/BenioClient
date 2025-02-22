@@ -19,6 +19,15 @@ public final class ModuleManager {
         return modules.get(mod);
     }
 
+    public Module getModule (String name) {
+        for (Module mod : modules.values()) {
+            if (mod.getName().equalsIgnoreCase(name)) {
+                return mod;
+            }
+        }
+        return null;
+    }
+
     public void register () {
         final Reflections refl = new Reflections("store.scriptbenio.module.impl");
 

@@ -6,6 +6,11 @@ import me.zero.alpine.listener.Subscriber;
 import net.minecraft.client.Minecraft;
 import org.apache.commons.lang3.Validate;
 import store.scriptbenio.Benio;
+import store.scriptbenio.settings.Setting;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @Getter
 public abstract class Module implements Subscriber {
@@ -13,6 +18,8 @@ public abstract class Module implements Subscriber {
     private boolean toggled;
     private final String name, description;
     private final Category category;
+
+    private final List<Setting> sList = new ArrayList<>();
 
     @Setter
     private int key;
@@ -26,6 +33,14 @@ public abstract class Module implements Subscriber {
         this.name = info.name();
         this.description = info.description();
         this.category = info.category();
+    }
+
+    protected void addSetting(Setting setting) {
+        sList.add(setting);
+    }
+
+    protected void addSettings(Setting... settings) {
+        sList.addAll(Arrays.asList(settings));
     }
 
     public void onEnable () {

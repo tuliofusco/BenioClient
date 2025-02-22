@@ -32,7 +32,7 @@ public final class HelpCommand extends Command {
                 .stream()
                 .filter(command -> !(command instanceof HelpCommand))
                 .forEach(command -> ChatUtil.addChatMessage(
-                        String.format(EnumChatFormatting.BLACK
+                        String.format(EnumChatFormatting.YELLOW
                                 + "%s "
                                 + EnumChatFormatting.WHITE
                                 + "- "

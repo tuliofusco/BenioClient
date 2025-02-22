@@ -15,7 +15,8 @@ public final class ChatUtil {
     }
 
     public static void addChatMessage (final String msg) {
-        Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(fix(msg)));
+        Minecraft.getMinecraft().thePlayer
+                .addChatMessage(new ChatComponentText(fix(Benio.INSTANCE.getClientPrefix()) + fix(msg)));
     }
 
     public static void addChatMessage (final String msg, final boolean prefix) {

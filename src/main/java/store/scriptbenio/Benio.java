@@ -11,6 +11,7 @@ import org.lwjgl.opengl.Display;
 import store.scriptbenio.command.CommandManager;
 import store.scriptbenio.event.impl.input.EventKey;
 import store.scriptbenio.module.ModuleManager;
+import store.scriptbenio.settings.SettingManager;
 
 @Getter
 public enum Benio implements Subscriber {
@@ -32,6 +33,7 @@ public enum Benio implements Subscriber {
 
     private ModuleManager mm;
     private CommandManager cm;
+    private SettingManager sm;
 
     public final void init () {
         BUS.subscribe(this);
@@ -39,6 +41,7 @@ public enum Benio implements Subscriber {
 
         mm = new ModuleManager();
         cm = new CommandManager();
+        sm = new SettingManager();
     }
 
     public final void shutdown () {
