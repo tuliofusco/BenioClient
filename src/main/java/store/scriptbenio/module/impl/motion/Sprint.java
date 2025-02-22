@@ -17,7 +17,7 @@ public final class Sprint extends Module {
 
     public Sprint () {
         // SPRINT KEY BIND
-        setKey(Keyboard.KEY_B);
+        setKey(Keyboard.KEY_TAB);
     }
 
     @Override

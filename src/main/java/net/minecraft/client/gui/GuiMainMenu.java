@@ -36,6 +36,7 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.util.glu.Project;
+import store.scriptbenio.gui.auth.AltManagerGui;
 
 public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
 {
@@ -263,19 +264,19 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
     /**
      * Adds Singleplayer and Multiplayer buttons on Main Menu for players who have bought the game.
      */
-    private void addSingleplayerMultiplayerButtons(int p_73969_1_, int p_73969_2_)
+    private void addSingleplayerMultiplayerButtons(int startingY, int verticalSpacing)
     {
-        this.buttonList.add(new GuiButton(1, this.width / 2 - 100, p_73969_1_, I18n.format("menu.singleplayer", new Object[0])));
-        this.buttonList.add(new GuiButton(2, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 1, I18n.format("menu.multiplayer", new Object[0])));
-
+        this.buttonList.add(new GuiButton(1, this.width / 2 - 100, startingY, I18n.format("menu.singleplayer", new Object[0])));
+        this.buttonList.add(new GuiButton(2, this.width / 2 - 100, startingY + verticalSpacing * 1, I18n.format("menu.multiplayer", new Object[0])));
+        this.buttonList.add(new GuiButton(3, this.width - 55,  5, 50, 20, "Alt"));
         if (Reflector.GuiModList_Constructor.exists())
         {
-            this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 + 2, p_73969_1_ + p_73969_2_ * 2, 98, 20, I18n.format("menu.online", new Object[0]).replace("Minecraft", "").trim()));
-            this.buttonList.add(this.modButton = new GuiButton(6, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 2, 98, 20, I18n.format("fml.menu.mods", new Object[0])));
+            this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 + 2, startingY + verticalSpacing * 2, 98, 20, I18n.format("menu.online", new Object[0]).replace("Minecraft", "").trim()));
+            this.buttonList.add(this.modButton = new GuiButton(6, this.width / 2 - 100, startingY + verticalSpacing * 2, 98, 20, I18n.format("fml.menu.mods", new Object[0])));
         }
         else
         {
-            this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 - 100, p_73969_1_ + p_73969_2_ * 2, I18n.format("menu.online", new Object[0])));
+            this.buttonList.add(this.realmsButton = new GuiButton(14, this.width / 2 - 100, startingY + verticalSpacing * 2, I18n.format("menu.online", new Object[0])));
         }
     }
 
@@ -308,6 +309,10 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         if (button.id == 5)
         {
             this.mc.displayGuiScreen(new GuiLanguage(this, this.mc.gameSettings, this.mc.getLanguageManager()));
+        }
+
+        if (button.id == 3) {
+            this.mc.displayGuiScreen(new AltManagerGui());
         }
 
         if (button.id == 1)
