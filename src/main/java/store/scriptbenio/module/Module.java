@@ -67,11 +67,11 @@ public abstract class Module implements Subscriber {
     public void setToggled(boolean toggled) {
         onToggle();
         if (toggled) {
-            this.toggled = false;
-            onDisable();
-        } else {
             this.toggled = true;
             onEnable();
+        } else {
+            this.toggled = false;
+            onDisable();
         }
     }
 }

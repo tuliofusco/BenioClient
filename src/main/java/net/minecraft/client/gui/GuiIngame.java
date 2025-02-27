@@ -43,6 +43,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.StringUtils;
 import net.minecraft.world.border.WorldBorder;
 import net.optifine.CustomColors;
+import store.scriptbenio.Benio;
+import store.scriptbenio.event.impl.render.Event2D;
 
 public class GuiIngame extends Gui
 {
@@ -154,6 +156,8 @@ public class GuiIngame extends Gui
         {
             this.renderTooltip(scaledresolution, partialTicks);
         }
+        final Event2D event = new Event2D(partialTicks, scaledresolution);
+        Benio.BUS.post(event);
 
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
         this.mc.getTextureManager().bindTexture(icons);

@@ -12,6 +12,7 @@ import store.scriptbenio.command.CommandManager;
 import store.scriptbenio.event.impl.input.EventKey;
 import store.scriptbenio.module.ModuleManager;
 import store.scriptbenio.settings.SettingManager;
+import store.scriptbenio.ui.dropdown.DropdownGUI;
 
 @Getter
 public enum Benio implements Subscriber {
@@ -30,6 +31,8 @@ public enum Benio implements Subscriber {
             commandPrefix = "#",
             clientPrefix = "[BENIO] ",
             authors = "Gabriel Scatena & Tulio Fusco";
+
+    private final DropdownGUI gui = new DropdownGUI();
 
     private ModuleManager mm;
     private CommandManager cm;
