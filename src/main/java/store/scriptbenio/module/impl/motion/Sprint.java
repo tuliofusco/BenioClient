@@ -32,11 +32,6 @@ public final class Sprint extends Module {
 
     @Subscribe
     private final Listener<EventUpdate> onUpdate = new Listener<>(e -> {
-        if (mc.thePlayer.isCollidedHorizontally) return;
-        if (mc.thePlayer.moveForward <= 0) return;
-        if (mc.thePlayer.isUsingItem()) return;
-        if (mc.thePlayer.isSneaking()) return;
-
-        mc.thePlayer.setSprinting(true);
+        mc.gameSettings.keyBindSprint.setPressed(true);
     });
 }
