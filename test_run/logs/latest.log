@@ -1,178 +1,612 @@
-[22:25:05] [Client thread/INFO]: Setting user: Player802
-[22:25:05] [Client thread/INFO]: (Session ID is token:0:Player802)
-[22:25:06] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightOpacity
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightValue
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.ChunkCache.isSideSolid
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.item.Item.delegate
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSaveFolder
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
-[22:25:06] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
-[22:25:06] [Client thread/INFO]: LWJGL Version: 2.9.4
-[22:25:06] [Client thread/INFO]: [OptiFine] 
-[22:25:06] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_L5
-[22:25:06] [Client thread/INFO]: [OptiFine] Build: null
-[22:25:06] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[22:25:06] [Client thread/INFO]: [OptiFine] Java: 1.8.0_431, Oracle Corporation
-[22:25:06] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-[22:25:06] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
-[22:25:06] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2, version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
-[22:25:06] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
-[22:25:06] [Client thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
-[22:25:06] [VersionCheck/INFO]: [OptiFine] Checking for new version
-[22:25:06] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 560.94
-[22:25:06] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
-[22:25:06] [Client thread/INFO]: [Shaders] Renderer: NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2
-[22:25:06] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
-[22:25:06] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[22:25:06] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
-[22:25:06] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[22:25:06] [Client thread/INFO]: [Shaders] Load shaders configuration.
-[22:25:06] [Client thread/INFO]: [Shaders] Save shaders configuration.
-[22:25:06] [Client thread/INFO]: [Shaders] No shaderpack loaded.
-[22:25:06] [Client thread/INFO]: Reloading ResourceManager: Default
-[22:25:06] [VersionCheck/INFO]: [OptiFine] Version found: M5
-[22:25:06] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
-[22:25:06] [Client thread/INFO]: [OptiFine] Resource packs: Default
-[22:25:06] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
-[22:25:06] [Client thread/ERROR]: Couldn't initialize twitch stream
-[22:25:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[22:25:07] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[22:25:07] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[22:25:07] [Thread-4/INFO]: OpenAL initialized.
-[22:25:07] [Sound Library Loader/INFO]: Sound engine started
-[22:25:09] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
-[22:25:09] [Client thread/INFO]: [OptiFine] Multitexture: false
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
-[22:25:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
-[22:25:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
-[22:25:10] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
-[22:25:11] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[22:25:11] [Client thread/INFO]: [OptiFine] Animated sprites: 11
-[22:25:13] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
-[22:25:13] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
-[22:25:15] [Server thread/INFO]: Starting integrated minecraft server version 1.9
-[22:25:15] [Server thread/INFO]: Generating keypair
-[22:25:15] [Server thread/INFO]: Preparing start region for level 0
-[22:25:16] [Server thread/INFO]: Changing view distance to 7, from 10
-[22:25:16] [Server thread/INFO]: Player802[local:E:f914cd84] logged in with entity id 76 at (855.8169143576353, 69.0, 957.5762222793257)
-[22:25:16] [Server thread/INFO]: Player802 entrou no jogo
-[22:25:32] [Client thread/INFO]: Stopping!
-[22:25:32] [Client thread/INFO]: SoundSystem shutting down...
-[22:25:32] [Server thread/INFO]: Stopping server
-[22:25:32] [Server thread/INFO]: Saving players
-[22:25:32] [Server thread/INFO]: Saving worlds
-[22:25:32] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[22:25:32] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[22:25:32] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[22:25:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:47:42] [Client thread/INFO]: Setting user: Player248
+[16:47:42] [Client thread/INFO]: (Session ID is token:0:Player248)
+[16:47:43] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightOpacity
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightValue
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.ChunkCache.isSideSolid
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.item.Item.delegate
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSaveFolder
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[16:47:43] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[16:47:43] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[16:47:43] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:47:43] [Client thread/INFO]: [OptiFine] 
+[16:47:43] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_L5
+[16:47:43] [Client thread/INFO]: [OptiFine] Build: null
+[16:47:43] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[16:47:43] [Client thread/INFO]: [OptiFine] Java: 1.8.0_431, Oracle Corporation
+[16:47:43] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[16:47:43] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[16:47:43] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2, version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+[16:47:43] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[16:47:43] [Client thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
+[16:47:43] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[16:47:44] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 560.94
+[16:47:44] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[16:47:44] [Client thread/INFO]: [Shaders] Renderer: NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2
+[16:47:44] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[16:47:44] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[16:47:44] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[16:47:44] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[16:47:44] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[16:47:44] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[16:47:44] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[16:47:44] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:47:44] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[16:47:44] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[16:47:44] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
+[16:47:44] [Client thread/ERROR]: Couldn't initialize twitch stream
+[16:47:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:47:44] [VersionCheck/INFO]: [OptiFine] Version found: M5
+[16:47:44] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[16:47:44] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:47:44] [Thread-4/INFO]: OpenAL initialized.
+[16:47:44] [Sound Library Loader/INFO]: Sound engine started
+[16:47:47] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[16:47:47] [Client thread/INFO]: [OptiFine] Multitexture: false
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[16:47:47] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[16:47:47] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[16:47:49] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[16:47:49] [Client thread/INFO]: [OptiFine] Animated sprites: 11
+[16:47:51] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[16:47:51] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[16:47:54] [Server thread/INFO]: Starting integrated minecraft server version 1.9
+[16:47:54] [Server thread/INFO]: Generating keypair
+[16:47:54] [Server thread/INFO]: Preparing start region for level 0
+[16:47:54] [Server thread/INFO]: Changing view distance to 7, from 10
+[16:47:55] [Server thread/INFO]: Player248[local:E:752517d1] logged in with entity id 76 at (1053.7074133298318, 72.0, 1236.9466305339515)
+[16:47:55] [Server thread/INFO]: Player248 entrou no jogo
+[16:48:19] [Server thread/INFO]: Saving and pausing game...
+[16:48:19] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[16:48:19] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[16:48:19] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[16:48:39] [Server thread/INFO]: Saving and pausing game...
+[16:48:39] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[16:48:39] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[16:48:39] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[16:48:40] [Server thread/INFO]: Stopping server
+[16:48:40] [Server thread/INFO]: Saving players
+[16:48:40] [Server thread/INFO]: Saving worlds
+[16:48:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[16:48:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[16:48:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[16:48:51] [Client thread/INFO]: Connecting to pirata.hylex.gg., 25590
+[16:49:05] [Client thread/INFO]: [CHAT] LOGIN! Você fez seu login com sucesso e será enviado ao Lobby em instantes.
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/INFO]: [CHAT] 
+[16:49:05] [Client thread/INFO]: [CHAT] MISSAO ESPECIAL!
+[16:49:05] [Client thread/INFO]: [CHAT] Procure por 10 bolos de aniversário espalhados pelo Lobby principal do Hylex para receber uma recompensa especial!
+[16:49:05] [Client thread/INFO]: [CHAT] 
+[16:49:05] [Client thread/INFO]: [CHAT] Você coletou 0 de 10 bolos até agora!
+[16:49:05] [Client thread/INFO]: [CHAT] 
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1101) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [classes/:?]
+	at Start.main(Start.java:16) [test-classes/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:309) ~[classes/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2006) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[classes/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[classes/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_431]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_431]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[classes/:?]
+	... 4 more
+[16:49:05] [Client thread/INFO]: [CHAT] §2☣§6✲§5鬼 §7[80✩] §6§lPLUS §6§6Imperazim§6: webfamilia ishwz?
+[16:49:07] [Client thread/INFO]: [CHAT] §2☣§6✲§5鬼 §7[80✩] §6§lPLUS §6§6Imperazim§6: num compensa
+[16:49:15] [Client thread/INFO]: [CHAT] §f✞§0✦§b➃ §e[242✩] §b§lPLUS§d+ §b§bishwz§b: Oloko
+[16:49:17] [Client thread/INFO]: [CHAT] §a۞§f☯§5✈ §7[48✩] §aEmerald §a§aAranhats§a: LIVE ON! /party entrar aranhats @Aranhats no YouTUBE! SEXTOUUUUU
+[16:49:20] [Client thread/INFO]: [CHAT] §a۞§f☯§5✈ §7[48✩] §aEmerald §a§aAranhats§a: kakaka
+[16:49:25] [Client thread/INFO]: [CHAT] §b§lPLUS§a+ §b§bcr4ftin§b: x
+[16:49:26] [Client thread/INFO]: [CHAT] §b§lPLUS§a+ §b§bcr4ftin§b: Live ON! NO YOUTUBE, CR4FTIN! TE ESPERO LA! (COLLAB ARANHATS)
+[16:49:56] [Client thread/INFO]: [CHAT] ----------------------------------------
+[16:49:56] [Client thread/INFO]: [CHAT]  »» Trevas+ Escurinho entrou no lobby!
+[16:49:56] [Client thread/INFO]: [CHAT] ----------------------------------------
+[16:49:57] [Client thread/INFO]: [CHAT] ➜ PLUS paulo00765ttu* entrou no lobby!
+[16:50:00] [Client thread/INFO]: [CHAT] §f✞§0✦§b➃ §e[242✩] §b§lPLUS§d+ §b§bishwz§b: Escurinho
+[16:50:01] [Client thread/INFO]: [CHAT] §f✞§0✦§b➃ §e[242✩] §b§lPLUS§d+ §b§bishwz§b: FAAAAAAAAKA
+[16:50:03] [Client thread/INFO]: [CHAT] §9✍§5鬼§5☬ §e[212✩] §5Trevas§d+ §5§5Escurinho§5: oq
+[16:50:06] [Client thread/INFO]: [CHAT] §f✞§0✦§b➃ §e[242✩] §b§lPLUS§d+ §b§bishwz§b: FAAAAAALA
+[16:50:09] [Client thread/INFO]: [CHAT] §f✞§0✦§b➃ §e[242✩] §b§lPLUS§d+ §b§bishwz§b: me ensina pvp?
+[16:50:10] [Client thread/INFO]: [CHAT] §9✍§5鬼§5☬ §e[212✩] §5Trevas§d+ §5§5Escurinho§5: fala oqq
+[16:50:13] [Client thread/INFO]: [CHAT] §0✦ §4§lELITE§4+ §4§4yLesty§4: KDJSALASJLASD
+[16:50:18] [Client thread/INFO]: Stopping!
+[16:50:18] [Client thread/INFO]: SoundSystem shutting down...
+[16:50:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
