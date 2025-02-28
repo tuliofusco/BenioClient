@@ -32,11 +32,11 @@ public enum Benio implements Subscriber {
             clientPrefix = "[BENIO] ",
             authors = "Gabriel Scatena & Tulio Fusco";
 
-    private final DropdownGUI gui = new DropdownGUI();
-
     private ModuleManager mm;
     private CommandManager cm;
     private SettingManager sm;
+
+    private DropdownGUI gui;
 
     public final void init () {
         BUS.subscribe(this);
@@ -45,6 +45,8 @@ public enum Benio implements Subscriber {
         mm = new ModuleManager();
         cm = new CommandManager();
         sm = new SettingManager();
+
+        gui = new DropdownGUI();
     }
 
     public final void shutdown () {

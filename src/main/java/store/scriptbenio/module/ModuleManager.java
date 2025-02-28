@@ -28,6 +28,11 @@ public final class ModuleManager {
         return null;
     }
 
+
+    public Module[] getModules(Category cat){
+        return getModules().values().stream().filter(module -> module.getCategory() == cat).toArray(Module[]::new);
+    }
+
     public void register () {
         final Reflections refl = new Reflections("store.scriptbenio.module.impl");
 

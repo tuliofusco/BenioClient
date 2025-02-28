@@ -1,5 +1,7 @@
 package store.scriptbenio.ui.dropdown;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.audio.SoundHandler;
 import net.minecraft.client.gui.GuiScreen;
 import org.lwjgl.input.Keyboard;
 import store.scriptbenio.Benio;
@@ -17,9 +19,9 @@ public class DropdownGUI extends GuiScreen {
     public DropdownGUI(){
         frames = new ArrayList<>();
 
-        int offset = 30;
+        int offset = 0;
         for(Category cat : Category.values()){
-            frames.add(new Frame(cat, offset));
+            frames.add(new Frame(cat, 10 + offset, 35, 75, 15));
             offset += 85;
         }
     }
@@ -46,7 +48,16 @@ public class DropdownGUI extends GuiScreen {
     }
 
     @Override
+    protected void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
+        for(Frame frame : frames){
+            frame.mouseClicked(mouseX, mouseY, mouseButton);
+        }
+        super.mouseClicked(mouseX, mouseY, mouseButton);
+    }
+
+    @Override
     public boolean doesGuiPauseGame() {
         return false;
+
     }
 }
